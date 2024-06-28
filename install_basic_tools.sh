@@ -13,6 +13,7 @@ echo "Installing Basic Desktop Communication Tools...\n"
 sudo apt intall telegram-desktop -y
 
 ## LibreOffice
+sudo flatpak uninstall org.libreoffice.LibreOffice//fresh
 sudo flatpak install flathub org.libreoffice.LibreOffice
 
 ## OneDrive
