@@ -18,7 +18,7 @@ sudo apt update && sudo apt full-upgrade -y
 while true; do
     read -p "Do you wish to install Basic Desktop Communication Tools? " yn
     case $yn in
-        [Yy]* ) ./basic_tools.sh; break;;
+        [Yy]* ) ./install_basic_tools.sh; break;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
