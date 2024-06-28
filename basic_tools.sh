@@ -1,4 +1,9 @@
 #! /bin/bash
+#
+# Author  : Devin Hedge kn4fvh
+# Date    : 27 June 2024
+# Updated : 27 June 2024
+# Purpose : Installs the Basic Desktop Communication Tools
 
 echo "Installing Basic Desktop Communication Tools...\n"
 
